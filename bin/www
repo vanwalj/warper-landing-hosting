@@ -1,0 +1,15 @@
+/**
+ * Created by Jordan on 5/8/2015.
+ */
+'use strict';
+
+var models  = require('../models');
+var app     = require('../index');
+
+models.sequelize.sync()
+    .then(function () {
+        app.listen(process.env.PORT, function () {
+            console.log('App listening on ' + process.env.PORT);
+        });
+    })
+    .catch(console.error);

@@ -1,0 +1,23 @@
+{
+  "name": "warper-landing-hosting",
+  "version": "1.0.0",
+  "description": "Warper landing hosting",
+  "main": "bin/www",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanwalj/warper-landing-hosting.git"
+  },
+  "author": "Jordan Van Walleghem <j.vanwall@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanwalj/warper-landing-hosting/issues"
+  },
+  "homepage": "https://github.com/vanwalj/warper-landing-hosting",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "pg": "^4.3.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^2.1.3"
+  }
+}
